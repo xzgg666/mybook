@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#app {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.adds {
+    margin-top: 20px;
+    border: 1px dotted rgb(135, 201, 195);
+    padding: 5px;
+}
+
+.adds span {
+    margin-left: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead,
+.adds {
+    background-color: rgb(235, 118, 23);
+}
+
+.count {
+    background-color: rgb(235, 118, 23);
+    border: 1px dotted rgb(135, 201, 195);
+    padding-right: 365px;
+}
+
+tr td,
+th {
+    border: 1px dotted rgb(235, 118, 23);
+    border-top: none;
+    height: 35px;
+    line-height: 35px;
+}
